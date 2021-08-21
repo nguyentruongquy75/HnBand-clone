@@ -1,0 +1,135 @@
+@import url(./base.css);
+
+.footer {
+    background: url(../img/footer-bg.png) center / cover no-repeat;
+    background-color: #0c0617;
+}
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    background-color: #191039;
+    height: 520px;
+}
+
+.footer__top-contact {
+    flex: 1;
+    padding: 62px 36px 62px 66px;
+    height: 100%;
+}
+
+.footer__top-contact-form {
+    --col-num: 2;
+    --col-space: 14px;
+    margin-top: 64px;
+}
+
+.footer__top-contact-form input,
+.footer__top-contact-form textarea {
+    width: 100%;
+    font-size: 1.4rem;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #191039;
+    color: var(--white-color);
+    border-bottom: 1px solid #474061;
+}
+
+.footer__top-contact-form textarea {
+    margin-top: 36px;
+    height: 90px;
+    resize: none;
+}
+
+.footer__top-contact-btn {
+    margin-top: 42px;
+}
+
+.footer__top-img {
+    width: 390px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer__bottom {
+    margin-top: 70px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #362c5b;
+}
+
+.footer__bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white-color);
+    font-size: 1.5rem;
+}
+
+.footer__bottom-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.footer__bottom-item-icon {
+    --size: 65px;
+    width: var(--size);
+    height: var(--size);
+    line-height: var(--size);
+    text-align: center;
+    background: var(--primary-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    margin-right: 22px;
+}
+
+.footer__bottom-item span {
+    display: block;
+    line-height: 1.6;
+}
+
+.footer__bottom-social {
+}
+
+.footer__bottom-social-list {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    padding: 20px;
+    font-size: 2rem;
+    background: var(--primary-color);
+    border-radius: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer__bottom-social-list::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    top: 2px;
+    left: 2px;
+    border-radius: inherit;
+    background-color: #1f1448;
+    z-index: -1;
+}
+
+.footer__bottom-social-item + .footer__bottom-social-item {
+    margin-left: 12px;
+}
+
+.footer__bottom-social-item-link {
+    color: var(--white-color);
+    padding: 8px;
+}
+
+.footer__copyright {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c4c4c4;
+}

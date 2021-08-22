@@ -1,0 +1,454 @@
+
+
+@media (min-width: 1024px) and (max-width: 1224px) {
+
+    .header-wrapper {
+        width: 994px;
+    }
+
+    .wrapper {
+        width: 960px;
+    }
+
+    .header__logo img {
+        width: 140px;
+    }
+
+    .header-main__nav-item-link {
+        padding: 12px;
+    }
+
+    .slider {
+        min-height: 50vh;
+    }
+
+    .discogaphy-top {
+        padding-top: 260px;
+    }
+
+    .about-us-container img {
+        width: 450px;
+    }
+
+    .albums-section-body {
+        --col-num: 3;
+        --col-space: 15px;
+    }
+
+    .albums-item-img-container {
+        --height: 300px;
+    }
+
+    .albums-item-download .row {
+        flex-direction: column;
+        --col-num: 1;
+        --col-space: 0;
+        text-align: center;
+    }
+
+    .albums-item-download .col + .col {
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 1023px) {
+    html {
+        overflow-x: hidden;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .upcoming-show__body-item::after {
+        width: 100%;
+    }
+
+    .header-main__nav {
+        display: none;
+    }
+
+    .header-main .btn {
+        display: none;
+    }
+
+    .slider {
+        min-height: 70vh;
+    }
+
+    .discogaphy-top {
+        padding-top: 270px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .discogaphy-top-right {
+        margin-top: 32px;
+    }
+
+    .upcoming-show__body-item::after {
+        width: 100vw;
+    }
+
+    .albums-item-download .row {
+        flex-direction: column;
+        --col-num: 1;
+        --col-space: 0;
+        text-align: center;
+    }
+
+    .albums-item-download .col + .col {
+        margin-top: 8px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header-wrapper {
+        width: 638px;
+    }
+
+    .wrapper {
+        width: 690px;
+    }
+
+    .header__logo img {
+        width: 130px;
+    }
+
+
+    .about-us-container {
+        flex-direction: column;
+    }
+
+    .about-us-content {
+        margin-top: 8px;
+    }
+
+    .discogaphy {
+        --col-num: 2;
+    }
+
+
+    .lastest-ablum {
+        --col-num: 1;
+    }
+
+    .lastest-ablum-left {
+        min-height: 939px;
+    }
+
+    .song-control {
+        display: flex;
+    }
+
+    .song-play-progress-time {
+        margin-top: 0;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .video-ablum__body {
+        height: auto;
+    }
+
+    .video-ablum__body-container {
+        flex-direction: column;
+    }
+
+    .video-ablum__body__left {
+        flex-basis: 400px;
+    }
+
+    .video-ablum__body__right {
+        flex-basis: 450px;
+    }
+
+    .upcoming-show__place-container {
+        width: 20%;
+    }
+
+    .upcoming-show__time-container {
+        margin-left: 6px;
+    }
+
+    .footer__top-img {
+        display: none;
+    }
+
+    .footer__bottom-container {
+        flex-wrap: wrap;
+    }
+
+    .footer__bottom-item {
+        flex-basis: 50%;
+    }
+
+    .footer__bottom-social-list {
+        margin: 64px auto 0;
+        width: 40%;
+    }
+
+    .albums-section-body {
+        --col-num: 2;
+    }
+
+    .albums-item-img-container {
+        --height: 330px;
+    }
+
+    .blogs {
+        --col-num: 2;
+    }
+}   
+
+@media (max-width: 767px) {
+    .header-wrapper {
+        width: 380px;
+    }
+
+    .wrapper {
+        width: 384px;
+    }
+
+    .about-heading {
+        font-size: 2.5rem;
+    }
+
+    .about-us-container img {
+        width: 100%;
+    }
+
+    .about-us-container {
+        flex-direction: column;
+    }
+
+    .about-us-content {
+        padding-left: 0;
+        margin-top: 24px;
+    }
+
+    .slider-container {
+        width: 100%;
+        left: 0;
+        padding: 0px;
+    }
+
+    .slide-item {
+        text-align: center;
+    }
+
+    .slide-item-heading {
+        font-size: 3.4rem;
+    }
+
+    .slide-item-desc {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .splide__arrows {
+        text-align: center;
+    }
+
+    .discogaphy {
+        --col-num: 1;
+        --col-space: 0;
+    }
+
+    .ablum-item-name {
+        margin-top: 8px;
+    }
+
+    .lastest-ablum {
+        --col-num: 1;
+        --col-space: 0;
+    }
+
+    .lastest-ablum-left {
+        height: 500px;
+        background: linear-gradient(to bottom, rgba(0,0,0,0) , rgba(0, 0, 0,0.3)),
+        url(../img/ablum/lastest.webp) center / cover no-repeat;
+    }
+
+    .song-play-container {
+        flex-direction: column;
+    }
+    
+    .song-info {
+        text-align: center;
+    }
+
+    .song-control-btn {
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 12px;
+    }
+
+    .song-play-progress-time {
+        text-align: center;
+    }
+
+    .lastest-ablum-right-top {
+        margin-left: 24px;
+    }
+
+    .lastest-ablum-right-item  {
+        padding: 30px 16px;
+    }
+
+    .lastest-ablum-right-item-social {
+        display: none;
+    }
+
+    .lastest-ablum-right-item-right {
+        margin-left: 32px;
+    }
+
+    .upcoming-show__top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .upcoming-show__top-btn {
+        margin-top: 24px;
+    }
+    
+    .video-ablum__body {
+        height: auto;
+    }
+
+    .video-ablum__body-container {
+        flex-direction: column;
+    }
+    .video-ablum__body__left {
+        flex-basis: 400px;
+        width: 100%;
+    }
+    .video-ablum__body__right {
+        flex-basis: 400px;
+    }
+
+    .upcoming-show__body-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .upcoming-show__date-container,
+    .upcoming-show__name-container,
+    .upcoming-show__place-container,
+    .upcoming-show__time-container {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .upcoming-show__name-container,
+    .upcoming-show__place-container,
+    .upcoming-show__time-container,
+    .upcoming-show__btn {
+        margin-top: 16px;
+    }
+
+    .upcoming-show__body-item::after {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .footer__top {
+        height: auto;
+    }
+
+    .footer__top-contact {
+        padding-left: 36px;
+    }
+
+    .footer__top-contact-form {
+        --col-num: 1;
+        --col-space: 0;
+    }
+
+    .footer__top-contact-form input[type="email"] {
+        margin-top: 36px;
+    }
+
+    .footer__top-img {
+        display: none;
+    }
+
+    .footer__bottom-container {
+        flex-direction: column;
+    }
+
+    .footer__bottom-item {
+        min-width: 290px;
+    }
+
+    .footer__bottom-item + .footer__bottom-item  {
+        margin-top: 24px;
+    }
+
+    .footer__bottom-social-list {
+        width: 100%;
+    }
+
+    .header__direction {
+        margin-top: 32px;
+    }
+
+    .aboutus-content-pagaraph {
+        flex-direction: column;
+    }
+
+    .aboutus-content-pagaraph .col:last-child {
+        margin-top: 16px;
+    }
+
+    .popular__show-body {
+        --col-num: 1;
+        --col-space: 0;
+    }
+
+    .popular__show-body .col:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .albums-section-top-heading {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .albums-section-body {
+        --col-num: 1;
+        --col-space: 0;
+    }
+
+    .albums-item-img-container {
+        --height: 384px;
+    }
+
+    .blogs {
+        --col-num: 1;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-wrapper,
+    .wrapper {
+        width: 345px;
+    }
+
+    .albums-item-img-container {
+        --height: 345px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-wrapper,
+    .wrapper {
+        width: 300px;
+    }
+
+    .albums-item-img-container {
+        --height: 300px;
+    }
+}

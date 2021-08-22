@@ -1,0 +1,70 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+.header {
+    background: url(../img/about/header-bg.webp) center / cover no-repeat;
+    background-color: #0c0617;
+}
+
+.aboutus {
+    background-color: #0c0617;
+    padding-top: 124px;
+}
+
+.aboutus img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutus-content {
+    --col-num: 2;
+    --col-space: 15px;
+    background-color: #191039;
+    padding: 50px;
+}
+
+.aboutus-content-pagaraph {
+    margin-top: 32px;
+}
+
+.aboutus-content p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #c4c4c4;
+}
+
+.popular__show {
+    background-color: #0c0617;
+    padding: 78px 0;
+}
+
+.popular__show-top {
+    text-align: center;
+}
+
+.popular__show-body {
+    --col-num: 3;
+    --col-space: 15px;
+    margin-top: 62px;
+}
+
+.popular__show-item-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.popular__show-item-title {
+    background-color: #191039;
+    padding: 24px;
+}
+
+.popular__show-item-name {
+    font-size: 2rem;
+    color: var(--white-color);
+    margin-bottom: 4px;
+}
+
+.popular__show-item-desc {
+    font-size: 1.5rem;
+    color: #c4c4c4;
+}

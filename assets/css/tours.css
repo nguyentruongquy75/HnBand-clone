@@ -1,0 +1,10 @@
+@import url(./style.css);
+
+.header {
+    background: url(../img/about/header-bg.webp) center / cover no-repeat;
+    background-color: #0c0617;
+}
+
+.upcoming-show {
+    padding-top: 128px;
+}

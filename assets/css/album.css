@@ -1,0 +1,108 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+.header {
+    background: url(../img/about/header-bg.webp);
+    background-color: #0c0617;
+}
+
+.albums-section {
+    background-color: #0c0617;
+    padding-top: 124px;
+    padding-bottom: 110px;
+}
+
+.albums-section-top-heading {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3.6rem;
+    color: var(--white-color);
+}
+
+.albums-section-body {
+    --col-num: 3;
+    --col-space: 15px;
+}
+
+.albums-item {
+    margin-top: 68px;
+}
+
+.albums-item:hover .albums-item-info{
+    opacity: 1;
+}
+
+.albums-item:hover .albums-item-name,
+.albums-item:hover .albums-item-singer,
+.albums-item:hover .albums-item-download-link {
+    opacity: 1;
+    top: 0;
+}
+
+.albums-item-img-container {
+    --height: 380px;
+    position: relative;
+    border-radius: 50%;
+    height: var(--height);
+}
+
+.albums-item-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--height);
+    background: rgba(117, 26, 128, 0.7);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.albums-item-name {
+    font-size: 2.4rem;
+    color: var(--white-color);
+    margin-bottom: 4px;
+    position: relative;
+    top: -40px;
+    opacity: 0;
+    transition: 0.25s linear 0.1s;
+}
+
+.albums-item-singer {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    position: relative;
+    top: -30px;
+    transition: 0.25s linear;
+}
+
+.albums-item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.albums-item-download {
+    --col-num: 2;
+    --col-space: 8px;
+    margin-top: 28px;
+}
+
+.albums-item-download .row {
+    flex-wrap: nowrap;
+}
+
+.albums-item-download-link {
+    display: block;
+    opacity: .4;
+}
+
+.albums-item-download-img {
+    height: 50px;
+}

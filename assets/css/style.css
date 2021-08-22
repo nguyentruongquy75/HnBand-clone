@@ -94,16 +94,6 @@
     z-index: 2;
 }
 
-.about-top {
-    font-family: var(--satisfy-font);
-    font-size: 3rem;
-    color: var(--light-pink-color);
-}
-
-.about-heading {
-    font-size: 3.6rem;
-    color: var(--white-color);
-}
 
 .about-desc {
     font-size: 1.5rem;
@@ -144,7 +134,7 @@
 }
 
 .ablum-item-img {
-    width: 265px;
+    width: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
